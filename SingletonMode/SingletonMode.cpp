@@ -10,7 +10,9 @@ public:
 		//双检测锁
 		if (Em == NULL)
 		{
+			//第一层 减少因为互斥锁带来的 性能的影响
 			mt.lock();
+			//锁 防止多并发的情况下 初始化多个实例
 			if (Em == NULL)
 				Em = new Emperor();
 			mt.unlock();
@@ -26,7 +28,7 @@ private:
 	//禁止拷贝和复制
 	Emperor(const Emperor&);
 	Emperor& operator=(const Emperor&);
-
+	//构造函数为私有
 	Emperor() {
 	};
 };
