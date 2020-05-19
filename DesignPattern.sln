@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IntermediaryMode", "Interme
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CommandMode", "CommandMode\CommandMode.vcxproj", "{9C4CC814-F8A5-4F7A-8799-3F5757F56149}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ResponsibilityMode", "ResponsibilityMode\ResponsibilityMode.vcxproj", "{4E4AE9B2-2E06-4EF0-BA16-FE18358B78D2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -121,6 +123,16 @@ Global
 		{9C4CC814-F8A5-4F7A-8799-3F5757F56149}.Release|x64.Build.0 = Release|x64
 		{9C4CC814-F8A5-4F7A-8799-3F5757F56149}.Release|x86.ActiveCfg = Release|Win32
 		{9C4CC814-F8A5-4F7A-8799-3F5757F56149}.Release|x86.Build.0 = Release|Win32
+		{4E4AE9B2-2E06-4EF0-BA16-FE18358B78D2}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{4E4AE9B2-2E06-4EF0-BA16-FE18358B78D2}.Debug|x64.ActiveCfg = Debug|x64
+		{4E4AE9B2-2E06-4EF0-BA16-FE18358B78D2}.Debug|x64.Build.0 = Debug|x64
+		{4E4AE9B2-2E06-4EF0-BA16-FE18358B78D2}.Debug|x86.ActiveCfg = Debug|Win32
+		{4E4AE9B2-2E06-4EF0-BA16-FE18358B78D2}.Debug|x86.Build.0 = Debug|Win32
+		{4E4AE9B2-2E06-4EF0-BA16-FE18358B78D2}.Release|Any CPU.ActiveCfg = Release|Win32
+		{4E4AE9B2-2E06-4EF0-BA16-FE18358B78D2}.Release|x64.ActiveCfg = Release|x64
+		{4E4AE9B2-2E06-4EF0-BA16-FE18358B78D2}.Release|x64.Build.0 = Release|x64
+		{4E4AE9B2-2E06-4EF0-BA16-FE18358B78D2}.Release|x86.ActiveCfg = Release|Win32
+		{4E4AE9B2-2E06-4EF0-BA16-FE18358B78D2}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
