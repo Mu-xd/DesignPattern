@@ -1,6 +1,10 @@
-﻿#include<iostream>
+﻿//------------------------------------------------------------------------------
+//设计模式练习：单例模式
+//双检测锁的实现，线程安全
+//作者：Mxd--
+//------------------------------------------------------------------------------
+#include<iostream>
 #include <mutex>
-
 using namespace std;
 
 class Emperor
@@ -34,9 +38,9 @@ private:
 };
 Emperor* Emperor::Em = new Emperor();
 mutex Emperor::mt = mutex();
-void say() {
-	cout << "我是皇上...." << endl;
-}
+//void say() {
+//	cout << "我是皇上...." << endl;
+//}
 int main()
 {
 	for (int i = 0; i < 5; i++)
