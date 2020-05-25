@@ -1,4 +1,8 @@
-﻿#include<iostream>
+﻿//---------------------------------------------------------
+//设计模式练习：抽象工厂
+//作者：Mxd--
+//----------------------------------------------------------
+#include<iostream>
 using namespace std;
 
 //抽象产品类
@@ -10,7 +14,7 @@ public:
 	virtual void talk() = 0;
 	virtual void getSex() = 0;
 };
-//一次成型
+//产品族
 class AbstractWhiteHuman :public Human
 {
 public:
@@ -41,7 +45,7 @@ public:
 		cout << "黄色人种说的话一般是双字节的" << endl;
 	}
 };
-//具体产品
+//不同的产品等级
 class FemaleYellowHuman :public AbstractYellowHuman
 {
 public:
