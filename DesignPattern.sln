@@ -36,6 +36,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IteratorMode", "IteratorMod
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CombinedMode", "CombinedMode\CombinedMode.vcxproj", "{7C464EF9-CEFC-4DC8-803E-1EAFA4B5DC34}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ObserverMode", "ObserverMode\ObserverMode.vcxproj", "{4BAF11AE-0D48-4C90-9A37-7F5CF2F99772}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -186,6 +188,16 @@ Global
 		{7C464EF9-CEFC-4DC8-803E-1EAFA4B5DC34}.Release|x64.Build.0 = Release|x64
 		{7C464EF9-CEFC-4DC8-803E-1EAFA4B5DC34}.Release|x86.ActiveCfg = Release|Win32
 		{7C464EF9-CEFC-4DC8-803E-1EAFA4B5DC34}.Release|x86.Build.0 = Release|Win32
+		{4BAF11AE-0D48-4C90-9A37-7F5CF2F99772}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{4BAF11AE-0D48-4C90-9A37-7F5CF2F99772}.Debug|x64.ActiveCfg = Debug|x64
+		{4BAF11AE-0D48-4C90-9A37-7F5CF2F99772}.Debug|x64.Build.0 = Debug|x64
+		{4BAF11AE-0D48-4C90-9A37-7F5CF2F99772}.Debug|x86.ActiveCfg = Debug|Win32
+		{4BAF11AE-0D48-4C90-9A37-7F5CF2F99772}.Debug|x86.Build.0 = Debug|Win32
+		{4BAF11AE-0D48-4C90-9A37-7F5CF2F99772}.Release|Any CPU.ActiveCfg = Release|Win32
+		{4BAF11AE-0D48-4C90-9A37-7F5CF2F99772}.Release|x64.ActiveCfg = Release|x64
+		{4BAF11AE-0D48-4C90-9A37-7F5CF2F99772}.Release|x64.Build.0 = Release|x64
+		{4BAF11AE-0D48-4C90-9A37-7F5CF2F99772}.Release|x86.ActiveCfg = Release|Win32
+		{4BAF11AE-0D48-4C90-9A37-7F5CF2F99772}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
