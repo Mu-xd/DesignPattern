@@ -42,6 +42,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FacadeMode", "FacadeMode\Fa
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MemoMode", "MemoMode\MemoMode.vcxproj", "{E7210472-C9E6-4BA8-A845-4F823A01C0FE}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VisitorMode", "VisitorMode\VisitorMode.vcxproj", "{2A32F39A-E725-4E8C-8B14-130C8D572035}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -222,6 +224,16 @@ Global
 		{E7210472-C9E6-4BA8-A845-4F823A01C0FE}.Release|x64.Build.0 = Release|x64
 		{E7210472-C9E6-4BA8-A845-4F823A01C0FE}.Release|x86.ActiveCfg = Release|Win32
 		{E7210472-C9E6-4BA8-A845-4F823A01C0FE}.Release|x86.Build.0 = Release|Win32
+		{2A32F39A-E725-4E8C-8B14-130C8D572035}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{2A32F39A-E725-4E8C-8B14-130C8D572035}.Debug|x64.ActiveCfg = Debug|x64
+		{2A32F39A-E725-4E8C-8B14-130C8D572035}.Debug|x64.Build.0 = Debug|x64
+		{2A32F39A-E725-4E8C-8B14-130C8D572035}.Debug|x86.ActiveCfg = Debug|Win32
+		{2A32F39A-E725-4E8C-8B14-130C8D572035}.Debug|x86.Build.0 = Debug|Win32
+		{2A32F39A-E725-4E8C-8B14-130C8D572035}.Release|Any CPU.ActiveCfg = Release|Win32
+		{2A32F39A-E725-4E8C-8B14-130C8D572035}.Release|x64.ActiveCfg = Release|x64
+		{2A32F39A-E725-4E8C-8B14-130C8D572035}.Release|x64.Build.0 = Release|x64
+		{2A32F39A-E725-4E8C-8B14-130C8D572035}.Release|x86.ActiveCfg = Release|Win32
+		{2A32F39A-E725-4E8C-8B14-130C8D572035}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
