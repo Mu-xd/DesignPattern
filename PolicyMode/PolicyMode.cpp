@@ -62,6 +62,6 @@ int main()
 	context = new Context(new GivenGreeLight());
 	context->operate();
 	cout << "--孙权的小兵追来了，拆第三个--" << endl;
-	context = new Context(new GivenGreeLight());
+	context = new Context(new BlockEnemy());
 	context->operate();
 }
