@@ -6,7 +6,7 @@ class AbstractMediator
 public:
 	virtual void execute(string str, int objects) = 0;
 };
-
+//同事
 class AbstractColleague
 {
 protected:
@@ -62,6 +62,7 @@ protected:
 	Stock* stock;
 public:
 	Mediator() {
+		//这里循环
 		this->purchase = new Purchase(this);
 		this->sale = new Sale(this);
 		this->stock = new Stock(this);
